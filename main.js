@@ -1,5 +1,4 @@
-changeBackgroundColor() {
-	color = document.getElementsByTagName('body')[0].style.color = "white";
-	alert("hello");
+function changeBackgroundColor() {
+	color = document.getElementsByTagName('body')[0].style.backgroundColor = "white";
 	return color; 
 }
